@@ -1,0 +1,399 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xd182Ce10c024330c1387BC75f5e32CCab45b2C18",
+    "txHash": "0x8d67fb6cbd39507d33177e0514a7d2eefc182c68d8ec979bc58d095145450bf7"
+  },
+  "proxies": [
+    {
+      "address": "0x443cBE4B2A49D8e061118470BBa9454B49B206b0",
+      "txHash": "0x16d6ad088f1f4ce47a7d5a4e00890f48b85ab286d0f0bbebaadfa678301cbbf0",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xC4715C095671808EceDEA4E199a017688446d347",
+      "txHash": "0x430e7ae089e392d645244ef842f14c0a39e5a1387d052c68dece991cc7ac94a5",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "ce78e38df7b51bafd2cb20b1314008400a3c105026b544062099a62c0884c3f8": {
+      "address": "0x343AefCB00F04A4CCb5Ace69dC0029788C26E731",
+      "txHash": "0x4102b8eeb0eb12e82e01dd5d34f1ae878de5e7499e985a8e86198d917ddf7d27",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:21"
+          },
+          {
+            "label": "receiver",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:22"
+          },
+          {
+            "label": "addressesProvider",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(ILendingPoolAddressesProvider)3155",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:23"
+          },
+          {
+            "label": "lendingPool",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_contract(IPool)3776",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:24"
+          },
+          {
+            "label": "swapRouter",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_contract(ISwapRouter)1122",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:25"
+          },
+          {
+            "label": "sushiswapRouter",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_contract(ISwapRouter)1122",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:26"
+          },
+          {
+            "label": "quoter",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_contract(IQuoter)1022",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:27"
+          },
+          {
+            "label": "camelotQuoter",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_contract(camelotIQuoter)4062",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:28"
+          },
+          {
+            "label": "pancakeswapQuoter",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_contract(pancakeswapIQuoterV2)4276",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:29"
+          },
+          {
+            "label": "pancakeSwapRouter",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_contract(pancakeswapISwapRouter)4376",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:30"
+          },
+          {
+            "label": "sushiswapQuoter",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_contract(sushiswapIQuoterV2)4469",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:31"
+          },
+          {
+            "label": "_uniswapPool500",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_contract(IUniswapV3Pool)531",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:32"
+          },
+          {
+            "label": "_uniswapPool300",
+            "offset": 0,
+            "slot": "12",
+            "type": "t_contract(IUniswapV3Pool)531",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:33"
+          },
+          {
+            "label": "_camelotSwapRouter",
+            "offset": 0,
+            "slot": "13",
+            "type": "t_contract(camelotISwapRouter)4169",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:34"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ILendingPoolAddressesProvider)3155": {
+            "label": "contract ILendingPoolAddressesProvider",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IPool)3776": {
+            "label": "contract IPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IQuoter)1022": {
+            "label": "contract IQuoter",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ISwapRouter)1122": {
+            "label": "contract ISwapRouter",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IUniswapV3Pool)531": {
+            "label": "contract IUniswapV3Pool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(camelotIQuoter)4062": {
+            "label": "contract camelotIQuoter",
+            "numberOfBytes": "20"
+          },
+          "t_contract(camelotISwapRouter)4169": {
+            "label": "contract camelotISwapRouter",
+            "numberOfBytes": "20"
+          },
+          "t_contract(pancakeswapIQuoterV2)4276": {
+            "label": "contract pancakeswapIQuoterV2",
+            "numberOfBytes": "20"
+          },
+          "t_contract(pancakeswapISwapRouter)4376": {
+            "label": "contract pancakeswapISwapRouter",
+            "numberOfBytes": "20"
+          },
+          "t_contract(sushiswapIQuoterV2)4469": {
+            "label": "contract sushiswapIQuoterV2",
+            "numberOfBytes": "20"
+          },
+          "t_uint64": {
+            "label": "uint64"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:69"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:73"
+            }
+          ]
+        }
+      }
+    },
+    "b4f02a13408bb31653edf385b5a5ff79d05b9f57b03a078b9c33e1d9e8cbd593": {
+      "address": "0xA1f64D5108887b3d3F6a0Ea059623e15bb73Fe30",
+      "txHash": "0x05bb9f63e53b571b9319b1343ca47bf9fdeb3f65623e258992960dc27624620b",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:21"
+          },
+          {
+            "label": "receiver",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:22"
+          },
+          {
+            "label": "addressesProvider",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(ILendingPoolAddressesProvider)3155",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:23"
+          },
+          {
+            "label": "lendingPool",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_contract(IPool)3776",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:24"
+          },
+          {
+            "label": "swapRouter",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_contract(ISwapRouter)1122",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:25"
+          },
+          {
+            "label": "sushiswapRouter",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_contract(ISwapRouter)1122",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:26"
+          },
+          {
+            "label": "quoter",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_contract(IQuoter)1022",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:27"
+          },
+          {
+            "label": "camelotQuoter",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_contract(camelotIQuoter)4062",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:28"
+          },
+          {
+            "label": "pancakeswapQuoter",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_contract(pancakeswapIQuoterV2)4276",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:29"
+          },
+          {
+            "label": "pancakeSwapRouter",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_contract(pancakeswapISwapRouter)4376",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:30"
+          },
+          {
+            "label": "sushiswapQuoter",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_contract(sushiswapIQuoterV2)4469",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:31"
+          },
+          {
+            "label": "_uniswapPool500",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_contract(IUniswapV3Pool)531",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:32"
+          },
+          {
+            "label": "_uniswapPool300",
+            "offset": 0,
+            "slot": "12",
+            "type": "t_contract(IUniswapV3Pool)531",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:33"
+          },
+          {
+            "label": "_camelotSwapRouter",
+            "offset": 0,
+            "slot": "13",
+            "type": "t_contract(camelotISwapRouter)4169",
+            "contract": "myFlash",
+            "src": "contracts\\MyFlash.sol:34"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ILendingPoolAddressesProvider)3155": {
+            "label": "contract ILendingPoolAddressesProvider",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IPool)3776": {
+            "label": "contract IPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IQuoter)1022": {
+            "label": "contract IQuoter",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ISwapRouter)1122": {
+            "label": "contract ISwapRouter",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IUniswapV3Pool)531": {
+            "label": "contract IUniswapV3Pool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(camelotIQuoter)4062": {
+            "label": "contract camelotIQuoter",
+            "numberOfBytes": "20"
+          },
+          "t_contract(camelotISwapRouter)4169": {
+            "label": "contract camelotISwapRouter",
+            "numberOfBytes": "20"
+          },
+          "t_contract(pancakeswapIQuoterV2)4276": {
+            "label": "contract pancakeswapIQuoterV2",
+            "numberOfBytes": "20"
+          },
+          "t_contract(pancakeswapISwapRouter)4376": {
+            "label": "contract pancakeswapISwapRouter",
+            "numberOfBytes": "20"
+          },
+          "t_contract(sushiswapIQuoterV2)4469": {
+            "label": "contract sushiswapIQuoterV2",
+            "numberOfBytes": "20"
+          },
+          "t_uint64": {
+            "label": "uint64"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:69"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:73"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
